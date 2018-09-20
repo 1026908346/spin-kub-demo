@@ -1,4 +1,4 @@
-FROM golang:1.10-alpine3.7 AS builder 
+FROM golang:1.10-alpine3.7 
 
 ADD . /go/src/github.com/lwander/k8s-demo
 
